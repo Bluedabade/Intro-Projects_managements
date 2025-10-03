@@ -1,0 +1,7 @@
+
+:root{--fitm-accent:#20c997}
+.hero{max-width:560px;margin:0 auto}
+.table-tight td,.table-tight th{padding:.5rem .6rem}
+.timeline{list-style:none;padding-left:0}
+.timeline li{position:relative;padding-left:1.25rem;margin-bottom:.5rem}
+.timeline li::before{content:'•';position:absolute;left:0;color:var(--fitm-accent)}
